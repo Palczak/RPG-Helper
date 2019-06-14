@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectedAmmunition">
+    <TextView
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ammunition_table_amount"/>
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/ammunition_selected_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/action_ammunition_shot_once"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ammunition_action_shot_once"/>
+    <Button
+        android:id="@+id/action_ammunition_shot_several"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ammunition_action_shot_several"/>
+    <Button
+        android:id="@+id/action_ammunition_set_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ammunition_action_set_amount"/>
+
+</LinearLayout>

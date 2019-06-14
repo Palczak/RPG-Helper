@@ -1,0 +1,25 @@
+<resources>
+    <string name="database_error">Data base is not available</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="dialog_delete">Are you sure you want to delere?</string>
+    <string name="app_name">RPG Helper</string>
+    <string name="table_id">ID</string>
+    <string name="table_name">Name</string>
+    <string name="title_activity_health">Health</string>
+    <string name="health_table_max">Max</string>
+    <string name="health_table_current">Current</string>
+    <string name="health_action_heal">Heal</string>
+    <string name="health_action_take_hit">Take hit</string>
+    <string name="health_action_set_max">Set max</string>
+    <string name="title_dialog_input_health">Input name of the health type</string>
+    <string name="title_activity_ammunition">Ammunition</string>
+    <string name="ammunition_table_amount">Amount</string>
+    <string name="ammunition_action_shot_once">Shot once</string>
+    <string name="ammunition_action_shot_several">Shot several</string>
+    <string name="ammunition_action_set_amount">Set amount</string>
+    <string name="ammunition_error_not_enough_ammunition">Not enough ammunition, fired all remaining ammunition</string>
+    <string name="title_dialog_input_ammunition">Input name of the ammunition container</string>
+    <string name="title_activity_money">Money - WORK IN PROGRESS</string>
+</resources>
